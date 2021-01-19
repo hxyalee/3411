@@ -1,4 +1,9 @@
-/aipython/
+
 /venv/
-/__pycache__/
+aipython/__pycache__
 .DS_Store
+/__pycache__/
+*.pyc
+
+aipython/.ipynb_checkpoints
+aipython/__pycache__
