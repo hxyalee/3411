@@ -6,6 +6,9 @@ aipython/__pycache__
 *.pyc
 <<<<<<< HEAD
 /.*
+/.env
+.evn
+.*
 =======
 *.cpython-38.pyc
 >>>>>>> a0ffb9f3acff5dc0e929f458223fbad156a73d42
