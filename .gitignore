@@ -4,6 +4,10 @@ aipython/__pycache__
 .DS_Store
 /__pycache__/*.pyc
 *.pyc
+<<<<<<< HEAD
 /.*
+=======
+*.cpython-38.pyc
+>>>>>>> a0ffb9f3acff5dc0e929f458223fbad156a73d42
 aipython/.ipynb_checkpoints
 aipython/__pycache__
