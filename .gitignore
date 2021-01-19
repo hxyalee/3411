@@ -4,6 +4,6 @@ aipython/__pycache__
 .DS_Store
 /__pycache__/*.pyc
 *.pyc
-
+/.*
 aipython/.ipynb_checkpoints
 aipython/__pycache__
