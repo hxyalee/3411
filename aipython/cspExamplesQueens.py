@@ -24,8 +24,11 @@ def n_queens(n):
     columns = list(range(n))
     return CSP(
                {'R'+str(i):columns for i in range(n)},
-                [Constraint(['R'+str(i),'R'+str(j)], queens(i,j)) for i in range(n) for j in range(n) if i != j])
+                [Constraint(
+                    ['R'+str(i),'R'+str(j)], 
+                    queens(i,j))
+                 for i in range(n) for j in range(n) if i != j])
 
 from cspConsistency import Con_solver
 qs = Con_solver(n_queens(5))
-# qs.solve_one()
+qs.solve_one()
